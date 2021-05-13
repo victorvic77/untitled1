@@ -21,7 +21,7 @@ public class RegistrationController {
         this.userRepo=userRepo;
     }
 
-    @GetMapping("/registrations")
+    @GetMapping("/registration")
     public String registration() {
         return "registration";
     }
